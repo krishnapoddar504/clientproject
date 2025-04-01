@@ -26,8 +26,12 @@ function Alldata() {
                 <img src={p.imgge} alt="Product Image" />
                 <p className="card-text">{p.item_name}</p>
                 <div className="card1">
-                  <p>{p.original_price}</p>
-                  <p>{p.current_price}</p>
+                  <p>Original Price</p>
+                  <p>Current Price</p>
+                </div>
+                <div className="card1">
+                  <p>₹{p.original_price}</p>
+                  <p>₹{p.current_price}</p>
                 </div>
 
                 <a href="#" className="btn btn-primary btn1">
