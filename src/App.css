@@ -21,3 +21,12 @@
 .card1 > p {
   flex: 1;
 }
+.card2 {
+  max-width: 160px;
+  margin-left: 30px;
+}
+
+/* .btn1 {
+  position: relative;
+  top: 95px;
+} */

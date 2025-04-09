@@ -15,15 +15,15 @@ function Alldata() {
     datafech();
   }, []);
   return (
-    <div className="container-fluid col-12 ms-5 ">
+    <div className="container-fluid col-12 ms-5 mt-4 mb-4">
       <div className="row">
         {a.map((p) => {
           return (
-            <div className="card" style={{ width: "18rem" }}>
+            <div className="card m-1 text-center" style={{ width: "18rem" }}>
               <div className="card-body">
                 <h1>{p.id}</h1>
                 <h5 className="card-title">{p.company} </h5>
-                <img src={p.imgge} alt="Product Image" />
+                <img src={p.image} alt="Product Image" className="card2" />
                 <p className="card-text">{p.item_name}</p>
                 <div className="card1">
                   <p>Original Price</p>
